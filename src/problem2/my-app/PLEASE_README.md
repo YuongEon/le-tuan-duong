@@ -1,8 +1,8 @@
-# $\color{teal}{\textsf{Swapper}}$
+# $\color{#AD88C6}{\textsf{Swapper}}$
 
 A project "Trade coin"
 
-## Features
+## $\color{#E1AFD1}{\textsf{Features}}$
 
 - Interactive user interface built using React
 - Responsive design with Tailwind CSS
@@ -12,14 +12,14 @@ A project "Trade coin"
   - Allows users to enter amounts and select currencies to view conversion rates.
   - For example: 2 USD = 50,000 VND
 
-## Technologies Used
+## $\color{#E1AFD1}{\textsf{Technologies Used}}$
 
 - **TypeScript**: Typed superset of JavaScript that compiles to plain JavaScript
 - **React**: JavaScript library for building user interfaces
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development
 - **React Router**: Declarative routing for React applications
 
-## Installation
+## $\color{#E1AFD1}{\textsf{Installation}}$
 
 Follow these steps to set up the project locally:
 
@@ -36,9 +36,9 @@ Follow these steps to set up the project locally:
    yarn
    ```
 
-## Usage
+## $\color{#E1AFD1}{\textsf{Usage}}$
 
-# Running the Project Locally
+### $\color{#FFE6E6}{\textsf{Running the Project Locally}}$
 
 1. **Start the frontend development server:**
 
@@ -52,7 +52,7 @@ Follow these steps to set up the project locally:
    yarn dev
    ```
 
-# Building the Project
+### $\color{#FFE6E6}{\textsf{Building the Project}}$
 
 To build the project for production, run:
 
@@ -60,10 +60,10 @@ To build the project for production, run:
 yarn build
 ```
 
-## Folder Structure
+## $\color{#E1AFD1}{\textsf{Folder Structure}}$
 
 ```bash
-projectname/
+swapper/
 ├── public/
 │   ├── asstes/
 │   │   ├── icons/
@@ -80,21 +80,20 @@ projectname/
 └── ...
 ```
 
-- public/: Public assets to store static files.
-- src/: Source code for the React application.
-- components/: Reusable UI components.
-- App.tsx: Root component of the application.
-- index.tsx: Entry point of the React application.
-- package.json: Project metadata and dependencies.
-- tsconfig.json: TypeScript configuration.
+- public/: $\color{#EADFB4}{\textsf{Public assets to store static files.}}$
+- src/: $\color{#EADFB4}{\textsf{Source code for the React application.}}$
+- components/: $\color{#EADFB4}{\textsf{Reusable UI components.}}$
+- App.tsx: $\color{#EADFB4}{\textsf{Root component of the application.}}$
+- index.tsx: $\color{#EADFB4}{\textsf{Entry point of the React application.}}$
+- package.json: $\color{#EADFB4}{\textsf{Project metadata and dependencies.}}$
+- tsconfig.json: $\color{#EADFB4}{\textsf{TypeScript configuration.}}$
 
-## Deploy link
+## $\color{#E1AFD1}{\textsf{Deploy link}}$
 
 - web: **_[swapper.com](https://swapper-ljqztzus8-duong-mach-projects.vercel.app/)_**
 - repo: **_[github.com/YuongEon/swapper](https://github.com/YuongEon/swapper)_**
 
-
-## Contact
+## $\color{#E1AFD1}{\textsf{Contact}}$
 
 If you have any questions or suggestions, feel free to reach out:
 
