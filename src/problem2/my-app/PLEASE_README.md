@@ -1,4 +1,4 @@
-# Swapper
+# $\color{teal}{\textsf{Swapper}}$
 
 A project "Trade coin"
 
