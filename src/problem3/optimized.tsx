@@ -32,7 +32,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
 		})
 	}, [filteredBalances])
 
-	// Sử dụng useMemo để tối ưu hoá
+	// use useMemo to reduce the number of loops and achieve better performance
 	const formattedBalances = useMemo(() => {
 		return sortedBalances.map((balance: WalletBalance) => ({
 			...balance,
@@ -40,14 +40,15 @@ const WalletPage: React.FC<Props> = (props: Props) => {
 		}))
 	}, [sortedBalances])
 
-	// Sử dụng useMemo để tối ưu hoá
+	// use useMemo to reduce the number of loops and achieve better performance
 	const rows = useMemo(() => {
 		return formattedBalances.map((balance: FormattedWalletBalance) => {
 			const usdValue = (prices[balance.currency] || 0) * balance.amount
 			return (
 				<WalletRow
 					className={classes.row}
-					key={balance.currency + balance.amount} // Sử dụng key duy nhất
+					// Use unique keys to help React recognize elements, increase performance, and help React optimize the rendering process
+					key={balance.currency + balance.amount}
 					amount={balance.amount}
 					usdValue={usdValue}
 					formattedAmount={balance.formatted}
