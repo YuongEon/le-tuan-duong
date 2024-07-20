@@ -10,14 +10,14 @@ A project "Trade coin"
 - **Convert and view exchange rates of currencies and cryptocurrencies**:
 
   - Allows users to enter amounts and select currencies to view conversion rates.
-  - For example: 2 USD = 50,000 VND
+  - For example: $\color{#F6995C}{\textsf{2 USD}}$ = $\color{#F6995C}{\textsf{50,000 VND }}$
 
 ## $\color{#E1AFD1}{\textsf{Technologies Used}}$
 
-- **TypeScript**: Typed superset of JavaScript that compiles to plain JavaScript
-- **React**: JavaScript library for building user interfaces
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
-- **React Router**: Declarative routing for React applications
+- **TypeScript**: $\color{#EADFB4}{\textsf{Typed superset of JavaScript that compiles to plain JavaScript}}$
+- **React**: $\color{#EADFB4}{\textsf{JavaScript library for building user interfaces}}$
+- **Tailwind CSS**: $\color{#EADFB4}{\textsf{Utility-first CSS framework for rapid UI development}}$
+- **React Router**: $\color{#EADFB4}{\textsf{Declarative routing for React applications}}$
 
 ## $\color{#E1AFD1}{\textsf{Installation}}$
 
