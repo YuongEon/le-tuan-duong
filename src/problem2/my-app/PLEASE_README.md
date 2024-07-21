@@ -90,7 +90,7 @@ swapper/
 
 ## $\color{#E1AFD1}{\textsf{Deploy link}}$
 
-- web: **_[swapper.com](https://swapper-ljqztzus8-duong-mach-projects.vercel.app/)_**
+- web: **_[https://swapper-red.vercel.app/](https://swapper-red.vercel.app/)_**
 - repo: **_[github.com/YuongEon/swapper](https://github.com/YuongEon/swapper)_**
 
 ## $\color{#E1AFD1}{\textsf{Contact}}$

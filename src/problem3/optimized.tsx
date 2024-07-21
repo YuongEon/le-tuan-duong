@@ -7,9 +7,9 @@ const priorityMap: { [key: string]: number } = {
 	Neo: 20,
 }
 
-const getPriority = useCallback((blockchain: string): number => {
+const getPriority = (blockchain: string): number => {
 	return priorityMap[blockchain] || -99
-}, [])
+}
 
 const WalletPage: React.FC<Props> = (props: Props) => {
 	const { children, ...rest } = props
@@ -36,7 +36,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
 	const formattedBalances = useMemo(() => {
 		return sortedBalances.map((balance: WalletBalance) => ({
 			...balance,
-			formatted: balance.amount.toFixed(2), // Chỉ định số chữ số thập phân
+			formatted: balance.amount,
 		}))
 	}, [sortedBalances])
 
