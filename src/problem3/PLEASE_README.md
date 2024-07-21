@@ -219,7 +219,7 @@ New code
 		const formattedBalances = useMemo(() => {
 		return sortedBalances.map((balance: WalletBalance) => ({
 			...balance,
-			formatted: balance.amount$\color{#F6995C}{\textsf{.toFixed(2)}}$,
+			formatted: balance.amount.toFixed(2),
 		}))
 	}, [sortedBalances])
 
